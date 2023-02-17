@@ -7,7 +7,6 @@ int main(void)
 {
 	int ch;
 
-	clscr();
 	printf("Print uppercase letters then lowercase letters\n");
 	for (ch = 'A'; ch <= 'Z'; ch++)
 		putchar(ch);
