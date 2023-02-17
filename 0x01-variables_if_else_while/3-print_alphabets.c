@@ -7,12 +7,10 @@ int main(void)
 {
 	int ch;
 
-	printf("Print uppercase letters then lowercase letters\n");
+	for (ch = 'a'; ch <= 'z'; ch++)
+		putchar(ch);
 	for (ch = 'A'; ch <= 'Z'; ch++)
 		putchar(ch);
-	putchar ('\n');
-	for (ch = 'a'; ch <= 'z' ch++)
-		putchar(ch);
 	putchar('\n');
-	getch();
+	return (0);
 }
