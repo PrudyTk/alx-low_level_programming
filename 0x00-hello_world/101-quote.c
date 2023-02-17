@@ -1,7 +1,8 @@
 #include <stdio.h>
+#include <unistd.h>
 /**
- * main - Entry point
- * Return: 1 (Success)
+ *main - c program that prints a line to the standsrd error
+ *Return: 1 (Success)
 */
 int main(void)
 {
