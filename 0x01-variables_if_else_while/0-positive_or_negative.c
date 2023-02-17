@@ -1,9 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
-/* main - Determine if number is positve, nagative or zero
- * Return: Always 0 (Success)
+/* more headers goes there
+ *main - Determine if number is positve, nagative or zero
+ *Return: Always 0 (Success)
 */
 int main(void)
 {
