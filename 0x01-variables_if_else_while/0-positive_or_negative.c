@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/** 
+/**
  * main - Entry point Determine if number is positve, nagative or zero
  *
  * Return: Always 0 (Success)
@@ -15,7 +15,7 @@ int main(void)
 	{
 		printf("%d is positive\n", n);
 	}
-	else if (n == 0)
+	else if (n = = 0)
 	{
 		printf("%d is zero\n", n);
 	}
