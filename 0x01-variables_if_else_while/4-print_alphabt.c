@@ -1,4 +1,4 @@
-#include <studio.h>
+#include <stdio.h>
 /**
  * main - prints the alphabets exclude q and e
  * Return: Always 0 (Success)
