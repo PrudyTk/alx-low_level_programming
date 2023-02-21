@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
   *main - Entry point print ALX Student
-  *Return: Always 0
+  *Return: Always 0 (Success)
 */
 int main(void)
 {
@@ -14,6 +14,5 @@ int main(void)
 		sh++;
 	}
 	_putchar('\n');
-
 	return (0);
 }
