@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <unistd.h>
-#include <stdlib.h>
 #include "main.h"
 /**
   *main - Entry point print ALX Student
