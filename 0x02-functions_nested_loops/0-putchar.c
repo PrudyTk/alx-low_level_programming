@@ -5,18 +5,15 @@
   *Return: Always 0
 */
 int main(void)
+int main(void)
 {
-	_putchar('A');
-	_putchar('L');
-	_putchar('X');
-	_putchar(' ');
-	_putchar('S');
-	_putchar('t');
-	_putchar('u');
-	_putchar('d');
-	_putchar('e');
-	_putchar('n');
-	_putchar('t');
+	char *sh = "ALX Student";
+
+	while (*sh)
+	{
+		_putchar(*sh);
+		sh++;
+	}
 	_putchar('\n');
 
 	return (0);
