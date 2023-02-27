@@ -1,23 +1,35 @@
 #include "main.h"
 #include <unistd.h>
 /**
-  * print_rev - Prints a string in reverse
-  * @s: The string to print
+  * puts_half - Prints half of a string
+  * @str: The string to print
   * Return: void
 */
-void print_rev(char *s)
+void puts_half(char *str)
 {
-	int c = 0;
+	int a = 0;
+	int b;
 
-	while (s[c] != '\0')
+	while (str[a] != '\0')
 	{
-		c++;
+		a++;
 	}
 
-	for (c -= 1; c >= 0; c--)
+	if (a % 2 == 1)
 	{
-		_putchar(s[c]);
+		b = (a - 1) / 2;
+		b += 1;
+	}
+	else
+	{
+		b = a / 2;
+	}
+
+	for (; b < a; b++)
+	{
+		_putchar(str[b]);
 	}
 
 	_putchar('\n');
 }
+
